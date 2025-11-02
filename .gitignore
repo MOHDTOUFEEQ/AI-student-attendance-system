@@ -1,0 +1,51 @@
+# ===============================
+# PYTHON BACKEND
+# ===============================
+
+# Byte-compiled / cache files
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+
+# Virtual environments
+backend/venv/
+backend/env/
+
+# Model files and large binaries
+backend/**/*.h5
+backend/**/*.pt
+backend/**/*.weights
+backend/**/*.pkl
+backend/**/*.ckpt
+
+# Jupyter checkpoints
+backend/.ipynb_checkpoints/
+
+# Logs and temp files
+backend/*.log
+backend/tmp/
+backend/__temp__/
+backend/.pytest_cache/
+
+# ===============================
+# FRONTEND (React)
+# ===============================
+
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.next/
+frontend/yarn.lock
+frontend/package-lock.json
+
+# ===============================
+# SYSTEM & EDITOR FILES
+# ===============================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
